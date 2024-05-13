@@ -72,6 +72,18 @@ i {
     flex-grow: 1;
     margin-right: 5px;
 }
+#search-result {
+    background-color: #0050dd;
+    padding: 5px;
+    margin-top: 10px;
+}
+#search-result div {
+    padding: 5px;
+}
+#search-result div:hover {
+    padding: 5px;
+    text-decoration: underline;
+}
 
 .important-weather {
     color: #007bff;
@@ -96,5 +108,9 @@ i {
     }
     table * {
         font-size: small;
+    }
+    #search-result {
+        /* always, instead of hover because mobile devices does not have the hover feature */
+        text-decoration: underline;
     }
 }
