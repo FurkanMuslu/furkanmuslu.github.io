@@ -91,3 +91,8 @@ section:nth-of-type(2) b {
 html,body {
     overflow-x: hidden;
 }
+
+a {
+    color: darkred;
+}
+
