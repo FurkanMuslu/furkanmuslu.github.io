@@ -7,6 +7,10 @@ body {
 }
 
 
+li {
+    margin-top: 5px;
+}
+
 #left {
     background-color: #007bff;
     color: white;
