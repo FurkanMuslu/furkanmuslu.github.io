@@ -1,1 +1,0 @@
-# furkanmuslu.github.io

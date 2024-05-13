@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sismik Aktivite Takipçisi</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body>
+    <aside>
+    <header>
+        <h1>SİSMİK AKTİVİTE TAKİPÇİSİ</h1>
+    </header>
+    <section>
+        <div id="turkiye-deprem">
+            Türkiye'de günde iki kez <b>4+</b>, altı günde bir kez de <b>5+</b> şiddetinde bir deprem oluyor.
+        </div>
+    </section>
+    <section>
+        <p>Bunun sebebi Türkiye'nin;</p>
+        <ul>
+            <li><b>Kuzey Anadolu Fay Hattı</b></li>
+            <li><b>Doğu Anadolu Fay Hattı ve</b></li>
+            <li><b>Batı Anadolu Fay Hattı</b></li>
+        </ul>
+        <p>Olmak üzere 3 farklı fay hattının üzerinde bulunması.</p>
+    </section>
+    <section>
+        <p>Bu web sayfasında <strong>AFAD resmi kaynaklarına göre</strong> ülkemizde en son yaşanan sismik sarsıntıları görebilirsiniz.</p>
+    </section>
+    </aside>
+    <div id="content">
+        <table id="earthquakes">
+            <tr>
+                <th>Zaman</th> <!-- Tarih, Saat -->
+                <th>Konum</th> <!-- Şehir İlçe, Koordinat -->
+                <th>Şiddet</th> <!-- Büyüklük, Tip-->
+                <th>Derinlik</th> <!-- Derinlik -->
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
+</html>

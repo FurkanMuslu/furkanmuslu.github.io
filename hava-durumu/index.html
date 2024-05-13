@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Durumu</title>
+    <link rel="stylesheet" href="css/general.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <script src="utils/decode_weather_code.js"></script>
+    <script src="utils/get-data.js"></script>
+    <script src="utils/generate-day-info-table.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <aside id="left">
+        <h1>Hava Durumu</h1>
+        <p>Bu site insanların hava durumu verilerini kolayca takip edebilmelerini sağlamak için tasarlanmış bir hava durumu istatistikleri platformudur. Site kullanıcıların belirli bir konumun hava durumu verilerini görüntülemelerine ve analiz etmelerine olanak tanır.</p>
+        <p>Ana özellikler şunlardır:</p>
+        <ol>
+            <li><b>Konum Arama:</b> Kullanıcılar arama çubuğuna bir konum girerek o bölgenin hava durumu verilerini görüntüleyebilirler.</li>
+            <li><b>Günlük Hava Durumu Tabloları:</b> Site her gün için ayrı bir tablo oluşturur ve o gündeki saatlik hava durumu verilerini (sıcaklık, yağmur, kar, rüzgar vb.) bu tablolarda gösterir.</li>
+            <li><b>Önemli Hava Olayları Vurgusu:</b> Önemli hava olayları (şiddetli yağmur, kar, dolu vb.) tablolarda vurgulanır. Böylece kullanıcılar bu olayları kolayca fark edebilir.</li>
+        </ol>
+        <div id="current-place"><b>Mevcut konum: </b></div>
+        <form id="search-place" action="#" method="get">
+            <input type="text" placeholder="Konum ara...">
+            <input type="submit" value="Ara">
+        </form>
+        <div id="search-result"></div>
+    </aside>
+    <aside id="right">
+
+        <div id="daily-day-selector"></div>
+        <div id="daily">
+            <div id="day-tables">
+
+            </div>
+        </div>
+    </aside>
+</body>
+</html>
