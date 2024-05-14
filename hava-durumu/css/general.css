@@ -40,15 +40,18 @@ li {
     margin-right: 10px;
     padding: 10px;
     transition-duration: 0.5s;
+    border-radius: 30px;
 }
 #daily-day-selector div:hover {
     background-color: #0050dd;
     color: white;
     cursor: pointer;
+    border-radius: 5px;
 }
-.selected-day {
+#daily-day-selector div.selected-day {
     background-color: #007bff;
     color: white;
+    border-radius: 5px;
 }
 
 /* TABLE */
