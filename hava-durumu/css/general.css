@@ -18,11 +18,21 @@ li {
     padding: 50px;
     margin-right: 50px;
 }
-
-
 #left a {
     color: white;
     text-decoration: underline;
+}
+#title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    background-image: url(https://live.staticflickr.com/2041/2076187810_91ace9013f_w.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:unset;
+    box-shadow: 0 0 20px 20px #007bff inset;
+
 }
 
 #right {
